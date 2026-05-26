@@ -130,6 +130,11 @@ A comprehensive **Fleet Management System** built with Spring Boot 3, featuring 
 
 #### 1. Clone the repository
 
-```bash
+```bash`
 git clone https://github.com/your-username/fleet-management.git
 cd fleet-management
+
+#### 2. Docker setup
+1. Install Docker on your system.
+2. Clone the Repository.
+3 .Run command docker-compose up --build
