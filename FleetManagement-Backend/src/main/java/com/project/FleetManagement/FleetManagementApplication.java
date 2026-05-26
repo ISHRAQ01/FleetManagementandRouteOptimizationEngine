@@ -12,4 +12,3 @@ public class FleetManagementApplication {
 
 }
 
-//Swagger link http://localhost:8081/swagger-ui/index.html
