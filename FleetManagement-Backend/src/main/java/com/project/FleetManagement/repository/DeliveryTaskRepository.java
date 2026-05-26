@@ -21,4 +21,6 @@ public interface DeliveryTaskRepository extends JpaRepository<DeliveryTask,Long>
     //find task taken by staus and driver
     List<DeliveryTask>findByStatusAndDriver(String status,Driver driver);
 
+    //find task by status and vehicle
+    List<DeliveryTask>findByStatusAndVehicle(String status,Vehicle vehicle);
 }
